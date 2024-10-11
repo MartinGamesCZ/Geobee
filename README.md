@@ -71,3 +71,9 @@ const path = await new Geobee.TSP(osrm).findRoute(...)
 This will give you object with waypoints and route (which is array of invidual routes between places ordered to be the shortest total distance). The start_index parameter is used to mark in which point we start, making it the first one in the route.
 
 You can also use the `find` function (same usage), that will give you only the array with indexes of the places sorted to be shortest total distance (For example [0, 2, 1]). The first element is always equal to the start_index.
+
+## Authors
+- [Martin Petr](https://github.com/MartinGamesCZ)
+
+## License
+This project is licensed under MIT license. But please, respect and follow licenses of the invidual APIs that this project uses and don't blame me for anything, thanks.
