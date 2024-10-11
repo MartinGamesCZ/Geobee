@@ -60,6 +60,8 @@ Uses OSRM with TSP (Travelling salesman problem) algorithm to find the optimal p
 
 > ! Please note that the input array of coordinates is reversed due to coordinate handling of OSRM, will fix later.
 
+Uses: [project-osrm.org API](https://project-osrm.org) and TSP Algorithm 
+
 ```ts
 // TSP.findRoute(coordinates { lng, lat }[], start_index { number }) -> GeoJSON formatted route and waypoints
 const path = await new Geobee.TSP().findRoute([[12.1, 50.9], [12.0, 50.91], [12.24, 49.12]], 0)
