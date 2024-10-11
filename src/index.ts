@@ -1,6 +1,7 @@
 import geolocation from "./geolocation/index";
 import haversineDistance from "./haversine";
 import OSRM from "./osrm";
+import TSP from "./tsp";
 
 export default class Geobee {
   static async geolocate(ip?: string) {
@@ -8,6 +9,7 @@ export default class Geobee {
   }
 
   static OSRM = OSRM;
+  static TSP = TSP;
   static haversineDistance = haversineDistance;
 
   constructor() {}
