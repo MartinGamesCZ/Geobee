@@ -1,10 +1,9 @@
 {
   "name": "geobee",
-  "module": "src/index.ts",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "scripts": {
     "prepack": "rm -rf dist && bun build --minify --outdir dist src/index.ts && tsc",
     "post": "npm publish"
