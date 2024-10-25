@@ -23,7 +23,7 @@ export default async function geolocate(ip?: string): Promise<{
   }
 
   const { data } = await axios.get(
-    ip ? `http://ip-api.com/json/${ip}` : "http://ip-api.com/json",
+    ip ? `https://ip-api.com/json/${ip}` : "https://ip-api.com/json"
   );
 
   return data;
